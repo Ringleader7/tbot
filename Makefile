@@ -27,3 +27,4 @@ push:
 
 clean:
 	rm -rf tbot
+	docker rmi -f ${REGISTRY}/${APP}:${VERSION}-${TARGETARCH}
